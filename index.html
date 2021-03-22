@@ -37,9 +37,19 @@
     <section class="section">
       <div class="container">
         <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="column is-3-desktop"></div>
+          <div class="column is-6-desktop">
             <div class="content">
-              <h3>What's supported</h3>
+              <h3>Technology</h3>
+              <p>
+                We formally verify programs by automatically translating source code to the proof system&nbsp;<a href="https://coq.inria.fr/">Coq</a>. We then prove arbitrarily complex properties, either automatically or manually. By integrating into continuous integration systems, we make sure proofs are kept up-to-date with the code.
+              </p>
+              <p>
+                As an example, our technology is used for the crypto-currency <a href="https://tezos.com/">Tezos</a> to formally verify its implementation. We believe Tezos to be the first crypto-currency with an ongoing process of formal verification of its implementation, making it one the safest decentralized platform. See the <a href="https://gitlab.com/nomadic-labs/coq-tezos-of-ocaml">coq-tezos-of-ocaml</a> project for the current status.
+              </p>
+              <!-- Diagram generated on https://shaky.github.bushong.net/ -->
+              <img alt="programming flow" src="programming-flow.png" style="margin-top: 20px; margin-bottom: 20px;" />
+              <h3>What do we support</h3>
               <p>
                 Our tool chain supports the following languages:
               </p>
@@ -50,7 +60,7 @@
                 <li>Go</li>
               </ul>
               <p>
-                We proceed by plugging into the <a href="https://coq.inria.fr/">Coq proof system</a>, and focus on easy-to-catch but safety critical properties.
+                We focus on easy-to-catch but safety critical properties.
               </p>
               <h3>Get started</h3>
               <p>
@@ -58,6 +68,7 @@
               </p>
             </div>
           </div>
+          <div class="column is-3-desktop"></div>
         </div>
       </div>
     </section>
